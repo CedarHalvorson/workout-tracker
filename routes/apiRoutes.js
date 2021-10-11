@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const Workout = require(`../models/index`)
+const { Workout } = require(`../models/index`);
 
-router.get (`/workouts`, async (res) => {
+router.get (`/workouts`, async (req, res) => {
     try {
         const aggregationDuration = await Workout.aggregate([
             { 
