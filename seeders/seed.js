@@ -1,16 +1,17 @@
-const mongoose = require('mongoose');
-const db = require('../models');
-require('dotenv').config();
-try {
-  mongoose.connect(process.env.MONGODB_URI ||'mongodb://localhost/limitless-dawn-11698', {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true,
-}).then(console.log('Connected to database.'));
-} catch (err) {console.log(err)};
+// const mongoose = require('mongoose');
+// const db = require('../models');
+// require('dotenv').config();
+// try {
+//   mongoose.connect(process.env.MONGODB_URI ||'mongodb://localhost/limitless-dawn-11698', {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useCreateIndex:true,
+//   useFindAndModify: false
+// }).then(console.log('Connected to database.'));
+// } catch (err) {console.log(err)};
 
-console.log(db)
-console.log(db.Workout)
+// console.log(db)
+// console.log(db.Workout)
 
 const workoutSeed = [
   {
@@ -143,3 +144,6 @@ db.Workout.deleteMany({})
 
 
 // dbUrl
+
+
+// useFindAndModify: false,
