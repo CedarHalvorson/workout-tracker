@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const db = require('../models');
 require('dotenv').config();
 try {
-  mongoose.connect(process.env.dbUrl, {
+  mongoose.connect(process.env.MONGODB_URI ||'mongodb://localhost/limitless-dawn-11698', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
@@ -142,3 +142,4 @@ db.Workout.deleteMany({})
   });
 
 
+// dbUrl
