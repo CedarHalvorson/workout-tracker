@@ -2,18 +2,7 @@ const router = require('express').Router();
 const { Workout } = require(`../models/index`);
 const { create } = require('../models/workout');
 
-router.get (`/workouts`, async (req, res) => {
-    try {
-        const aggregationDuration = await Workout.aggregate([
-            { 
-                $addFields: { totalDuration: { $sum: '$exercises.duration'} },
-            },
-        ]);
-        res.status(200).json(aggregationDuration);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-});
+
 
 router.post (`/workouts`, async (req, res) => {
     try {
@@ -24,6 +13,7 @@ router.post (`/workouts`, async (req, res) => {
         res.status(500).json(err);
     }
 })
+
 
 router.put ("/workouts/:id", async (req, res) => {
     try {
@@ -38,6 +28,25 @@ router.put ("/workouts/:id", async (req, res) => {
         res.status(500).json(err);
     }
 })
+
+
+router.get (`/workouts`, async (req, res) => {
+    try {
+        const aggregationDuration = await Workout.aggregate([
+            { 
+                $addFields: { totalDuration: { $sum: '$exercises.duration'} },
+            },
+        ]);
+        res.status(202).json(aggregationDuration);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+
+
+
+
 
 
 
