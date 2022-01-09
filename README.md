@@ -12,7 +12,7 @@
   ## Usage
   visit heroku here https://limitless-dawn-11698.herokuapp.com/?id=61732cec0567e600160fda5a and track your workouts 
 
-    <img width="1236" alt="Site screenshot" src="C:\Users\Asus\Desktop\code\workout-tracker\workout Screenshot.PNG"
+    <img width="1236" alt="Site screenshot" src="workout Screenshot.PNG"
   
   ## Contact
   [github profile](https://github.com/CedarHalvorson)  
