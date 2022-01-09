@@ -12,7 +12,7 @@
   ## Usage
   visit heroku here https://limitless-dawn-11698.herokuapp.com/?id=61732cec0567e600160fda5a and track your workouts 
 
-    ![](images/%20workoutScreenshot.PNG)
+![](images/workoutScreenshot.PNG)
   
   ## Contact
   [github profile](https://github.com/CedarHalvorson)  
