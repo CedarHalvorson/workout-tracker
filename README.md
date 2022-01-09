@@ -1,27 +1,20 @@
-# workout tracker
+# Workout tracker
   [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-  ## table of contents
-  * [description](#description)
-  * [installation](#installation)
-  * [usage](#usage)
-  * [license](#license)
-  * [contribute](#contribute)
-  * [tests](#tests)
-  * [questions?](#questions)
-  ## description
-  this is the workout tracker it uses mongodb and is deployed in heroku you are able to create new workouts and view your past workouts as well the app is fully functional and works great.   
-  ## installation
-  just visit the link on heroku to use the app  
-  ## usage
-  visit heroku and track your workouts   
-  ## license
-  please click link to find out more info about MIT  
-  [MIT](https://opensource.org/licenses/MIT)  
-  ## contribute  
-  add your workouts  
-  ## tests
-  enter workouts   
-  ## questions
+  ## Table of contents
+  * [Description](#Description)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Contact](#Contact)
+
+  ## Description
+  This is my workout tracker app, it's meant to log a users workouts to a database specifically mongo db and is serverless as it uses heroku for hosting.
  
-  [github profile](https://github.com/)    
+  ## Usage
+  visit heroku here https://limitless-dawn-11698.herokuapp.com/?id=61732cec0567e600160fda5a and track your workouts 
+
+    <img width="1236" alt="Site screenshot" src="C:\Users\Asus\Desktop\code\workout-tracker\workout Screenshot.PNG"
+  
+  ## Contact
+  [github profile](https://github.com/CedarHalvorson)  
+  Email cedarhalvorson@gmail.com  
   
