@@ -15,7 +15,7 @@
   ![](images/workoutScreenshot.PNG)
   
   ## Technology
-  This app used the following Technology MongoDB, Javascript, HTML, CSS, Heroku and bootstrap. 
+  This app used the following Technology MongoDB, Javascript, HTML, CSS, Express, Heroku and bootstrap. 
   
   ## Questions
   If you have any questions feel free to contact me at the links below.
