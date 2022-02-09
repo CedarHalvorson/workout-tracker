@@ -18,7 +18,6 @@
   
   ## Contact
   [linked in](https://www.linkedin.com/in/cedar-halvorson-10791020a/)
-  
   [github profile](https://github.com/CedarHalvorson)  
   Email cedarhalvorson@gmail.com  
  
